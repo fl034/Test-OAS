@@ -1,0 +1,16 @@
+PODS:
+  - OpenAPIClient (1.0.0-beta)
+
+DEPENDENCIES:
+  - OpenAPIClient (from `OpenAPI/OpenAPIClient`)
+
+EXTERNAL SOURCES:
+  OpenAPIClient:
+    :path: OpenAPI/OpenAPIClient
+
+SPEC CHECKSUMS:
+  OpenAPIClient: a6caeaf2ecbdff7deeab03bbc3f9fa6a56b27b0e
+
+PODFILE CHECKSUM: c2899591244e9ac899850985cadd458debcd75b3
+
+COCOAPODS: 1.10.0

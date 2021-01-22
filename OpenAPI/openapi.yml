@@ -1,0 +1,32 @@
+openapi: 3.0.0
+info:
+  title: Test API
+  version: 1.0.0-beta
+servers:
+- url: https://heyfrank.de
+  description: Development
+
+paths:
+  /oas-test:
+    get:
+      operationId: Test
+      tags: 
+      - Test
+      summary: Test json
+      responses:
+        '200':
+          description: Results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TestObject'
+                  
+components:
+  schemas:
+
+    TestObject:
+      x-swift-hashable: true
+      type: object
+      properties:
+        property:
+          type: string

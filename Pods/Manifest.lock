@@ -2,15 +2,15 @@ PODS:
   - OpenAPIClient (1.0.0-beta)
 
 DEPENDENCIES:
-  - OpenAPIClient (from `OpenAPI/OpenAPIClient`)
+  - OpenAPIClient (from `OpenAPI/OpenAPIClient.snapshot`)
 
 EXTERNAL SOURCES:
   OpenAPIClient:
-    :path: OpenAPI/OpenAPIClient
+    :path: OpenAPI/OpenAPIClient.snapshot
 
 SPEC CHECKSUMS:
   OpenAPIClient: a6caeaf2ecbdff7deeab03bbc3f9fa6a56b27b0e
 
-PODFILE CHECKSUM: c2899591244e9ac899850985cadd458debcd75b3
+PODFILE CHECKSUM: e63ad45eed8dfd0254c67e25583be80f2bc59319
 
 COCOAPODS: 1.10.0

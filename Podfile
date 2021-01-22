@@ -6,6 +6,7 @@ target 'Test-OAS' do
   use_frameworks!
 
   # Pods for Test-OAS
-  pod 'OpenAPIClient', :path => 'OpenAPI/OpenAPIClient'
+  pod 'OpenAPIClient', :path => 'OpenAPI/OpenAPIClient.snapshot'
+  # pod 'OpenAPIClient', :path => 'OpenAPI/OpenAPIClient.stable'
 
 end

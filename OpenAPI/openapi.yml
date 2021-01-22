@@ -25,7 +25,6 @@ components:
   schemas:
 
     TestObject:
-      x-swift-hashable: true
       type: object
       properties:
         property:

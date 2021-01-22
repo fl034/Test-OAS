@@ -7,6 +7,6 @@ target 'Test-OAS' do
 
   # Pods for Test-OAS
   pod 'OpenAPIClient', :path => 'OpenAPI/OpenAPIClient.snapshot'
-  # pod 'OpenAPIClient', :path => 'OpenAPI/OpenAPIClient.stable'
+  #pod 'OpenAPIClient', :path => 'OpenAPI/OpenAPIClient.stable'
 
 end

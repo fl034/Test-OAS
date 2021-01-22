@@ -8,7 +8,7 @@
 import Foundation
 
 
-public struct TestObject: Codable, Hashable {
+public struct TestObject: Codable {
 
     public var property: String?
 
